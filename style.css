@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+
+body{
+    background-color: beige;
+    color: black;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cyan;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+a:visited{
+    background-color: purple;
+}
+
+nav a{
+    text-decoration: none;
+}
+.card{
+    background-color: gray;
+    width: 50%;
+    margin: 1rem auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.link {
+    display: block;
+}
+
+li{
+list-style-type: none;
+}
+
+#card2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 40px;
+}
